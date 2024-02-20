@@ -1,0 +1,115 @@
+Pick me up!
+
+Produktbeskrivelse: 
+
+Pick me up er en samkørsels applikation designet specielt til studerende. Formålet er at tilbyde en praktisk og økonomisk løsning for studerende, som ønsker at dele køreture til og fra deres uddannelsesinstitutioner. DMD gør det muligt for studerende, der ejer en bil, at tilbyde ledige sæder til medstuderende, som ikke har denne transportmulighed. Dette gavner miljøet ved at reducere antallet af køretøjer på vejene og fremmer et fællesskab blandt studerende ved at forbinde bilister og passagerer, der går på samme skole.
+
+Brugen af appen er enkel: Bilister opretter en profil, angiver hvilken skole de går på, og planlægger deres ruter. Passagerer kan herefter søge efter disse ruter og anmode om et lift. Omkostningerne for turen deles mellem passager og bilist, hvilket gør det til en økonomisk attraktiv løsning for alle parter.
+
+
+Aktører: 
+
+Admin (indehavere af applikationen/systemet)
+Bilist (studerende)
+Passager (studerende)
+Skoler (Ruter)
+
+
+Primære aktører:
+
+De primære aktører af applikationen er de studerende som både vil fungere som bilister, samt passager. Dermed er systemet bygget omkring studerende som værende hovedaktører. 
+
+
+
+
+UC-1 : Opret studerende med bil
+
+Primær: Studerende med bil
+Forudsætning: 
+Bruger har et aktivt kørekort til personbiler
+Bruger er studerende på en uddannelsesinstitution
+Bruger har en bil ( Reg. nr tjekkes op af system for evt. anmeldelser) 
+Bruger har en ren straffeattest (Måske???)
+
+Brief: 
+
+En bruger kan hurtigt og sikkert oprette sin profil som studerende med bil.
+Systemet kan effektivt og pålideligt validere alle brugeroplysninger og dokumenter.
+Den studerende med bil kan begynde at tilbyde køreture umiddelbart efter vellykket profiloprettelse.
+
+
+
+
+
+UC – 2 : Opret profil som passager
+
+Primær: Studerende uden bilist-profil.
+
+Forudsætninger: 
+
+Bruger er aktiv studerende på en uddannelsesinstitution
+
+
+Brief: 
+
+En bruger kan hurtigt og sikkert oprette sin profil som passager.
+Systemet kan effektivt og pålideligt validere alle brugeroplysninger og dokumenter.
+Efter succesfuld oprettelse af profil, kan bruger søge efter tilgængelig biler på brugeres rute. 
+
+
+Use Case: Opretning af rute for samkørsel
+
+Scope: Pick me up-appens funktionalitet til at lade bilister oprette og dele køreruter med andre studerende for samkørsel.
+
+Level: User Goal
+
+Primary Actor: Bilist
+
+Stakeholders og Interests:
+- Bilister: Ønsker at tilbyde samkørselstjenester og reducere omkostninger.
+- Passagerer: Ønsker at finde pålidelig transport til deres uddannelsesinstitution med andre studerende
+- Udviklere: Ønsker at implementere applikationen
+
+Pre Conditions:
+- Bilisten har downloadet og installeret Pick me up-appen.
+- Bilisten har oprettet en brugerprofil og er logget ind i applikationen.
+
+Post Conditions:
+- Ruten er oprettet og synlig for potentielle passagerer.
+- Passagerer har mulighed for at anmode om et lift til den oprettede rute.
+
+Basic Flow:
+-	Bilisten åbner Pick me up-appen og logger ind på deres brugerprofil.
+-	Bilisten navigerer til menuen for at oprette en ny rute.
+-	Bilisten indtaster startpunktet for ruten.
+- Bilisten angiver destinationen for ruten.
+- Bilisten vælger dato og tidspunkt for ruten.
+-	Bilisten angiver antallet af ledige sæder i deres bil til samkørsel.
+-	Bilisten tilføjer eventuelle mellemstop.
+-	Bilisten bekræfter oprettelsen af ruten, hvilket gør den synlig for andre brugere i appen.
+-	Appen viser en bekræftelsesbesked til bilisten 
+
+Alternative Flow:
+- Hvis der opstår ændringer i bilistens planer eller ruten, kan de redigere eller slette ruten fra deres profil, inden nogen passagerer har anmodet om et lift.
+
+Special Requirements:
+- Appen skal sikre, at bilistens personlige oplysninger beskyttes under oprettelsen af ​​ruten.
+- Ruteoprettelsesprocessen skal være intuitiv og nem at følge for bilisten.
+
+Technology and Data Variation List:
+- Mobilapplikation (Pick me up-app)
+- Brugerprofiler og login-system
+- GPS-navigationsteknologi til at bestemme ruter og destinationer
+- Database til at gemme ruteoplysninger og brugerdata
+
+Frequency Occurrence:
+- Opretning af ruter sker, når bilisten planlægger at tilbyde samkørsel, hvilket kan være dagligt, ugentligt eller efter behov.
+
+
+
+
+
+
+
+
+
