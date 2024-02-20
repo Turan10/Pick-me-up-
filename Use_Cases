@@ -57,7 +57,7 @@ Systemet kan effektivt og pålideligt validere alle brugeroplysninger og dokumen
 Efter succesfuld oprettelse af profil, kan bruger søge efter tilgængelig biler på brugeres rute. 
 
 
-Use Case: Opretning af rute for samkørsel
+UC - 3: Opret rute for samkørsel
 
 Scope: Pick me up-appens funktionalitet til at lade bilister oprette og dele køreruter med andre studerende for samkørsel.
 
