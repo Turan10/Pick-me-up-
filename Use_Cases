@@ -35,6 +35,7 @@ Brief:
 
 En bruger kan hurtigt og sikkert oprette sin profil som studerende med bil.
 Systemet kan effektivt og pålideligt validere alle brugeroplysninger og dokumenter.
+Den studerende med bil opretter sin faste rute fra hjem til skole, men har mulighed for at oprette flere ruter hvis der er behov for dette.
 Den studerende med bil kan begynde at tilbyde køreture umiddelbart efter vellykket profiloprettelse.
 
 
@@ -81,11 +82,13 @@ Post Conditions:
 Basic Flow:
 -	Bilisten åbner Pick me up-appen og logger ind på deres brugerprofil.
 -	Bilisten navigerer til menuen for at oprette en ny rute.
--	Bilisten indtaster startpunktet for ruten.
+- Hvis fast rute skal benyttes aktiveres denne ved at klikke på den i UI
+-	Hvis ikke favoritruterne skal benyttes (faste ruter), så kan bilisten indtaste startpunktet for ny rute.
 - Bilisten angiver destinationen for ruten.
 - Bilisten vælger dato og tidspunkt for ruten.
 -	Bilisten angiver antallet af ledige sæder i deres bil til samkørsel.
--	Bilisten tilføjer eventuelle mellemstop.
+-	Anmodning om stop fra passagere notificeres til billist som acceptere eller afviser anmodning.
+- Ruten omlægges efter hvert accept af mellemstop
 -	Bilisten bekræfter oprettelsen af ruten, hvilket gør den synlig for andre brugere i appen.
 -	Appen viser en bekræftelsesbesked til bilisten 
 
@@ -101,6 +104,7 @@ Technology and Data Variation List:
 - Brugerprofiler og login-system
 - GPS-navigationsteknologi til at bestemme ruter og destinationer
 - Database til at gemme ruteoplysninger og brugerdata
+- Kort til udregne ruter
 
 Frequency Occurrence:
 - Opretning af ruter sker, når bilisten planlægger at tilbyde samkørsel, hvilket kan være dagligt, ugentligt eller efter behov.
